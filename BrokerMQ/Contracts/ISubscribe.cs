@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace BrokerMQ.Messaging.Contracts
+namespace BrokerMQ.Contracts
 {
     public interface ISubscribe
     {

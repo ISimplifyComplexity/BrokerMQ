@@ -1,9 +1,10 @@
 ﻿using System;
-using BrokerMQ.Messaging;
-using BrokerMQ.Messaging.Contracts;
-using BrokerMQ.Messaging.Decorators;
-using BrokerMQ.Messaging.RabbitMq;
-using BrokerMQ.Tests.Models;
+using BrokerMQ;
+using BrokerMQ.Contracts;
+using BrokerMQ.Decorators;
+using BrokerMQ.RabbitMq;
+using harness.Models;
+
 
 namespace harness
 {
@@ -17,7 +18,7 @@ namespace harness
                         "localhost", "user", "password")
                 ));
 
-            // messageBroker.Publish("TestQueue", new ExampleMessage() {Text = "Bonjour!"});
+            messageBroker.Publish("TestQueue", new ExampleMessage() {Text = "Bonjour! Daniel!"});
             Console.ReadLine();
         }
     }

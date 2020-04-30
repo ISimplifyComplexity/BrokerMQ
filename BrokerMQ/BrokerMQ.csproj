@@ -2,10 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\BrokerMQ.Contracts\BrokerMQ.Contracts.csproj" />
-  </ItemGroup>
 
 </Project>

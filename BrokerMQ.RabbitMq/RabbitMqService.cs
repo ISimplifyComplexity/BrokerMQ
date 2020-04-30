@@ -6,7 +6,7 @@ using BrokerMQ.Contracts;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace BrokerMQ.Messaging.RabbitMq
+namespace BrokerMQ.RabbitMq
 {
     public class RabbitMqService : IDisposable, IMessageService
     {

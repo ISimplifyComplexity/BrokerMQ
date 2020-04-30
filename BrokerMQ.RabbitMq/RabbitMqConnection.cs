@@ -1,4 +1,4 @@
-﻿namespace BrokerMQ.Messaging.RabbitMq
+﻿namespace BrokerMQ.RabbitMq
 {
     public class RabbitMqConnection
     {

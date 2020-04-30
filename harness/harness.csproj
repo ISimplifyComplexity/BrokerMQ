@@ -6,8 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\BrokerMQ.Messaging\BrokerMQ.Messaging.csproj" />
-      <ProjectReference Include="..\BrokerMQ.Tests\BrokerMQ.Tests.csproj" />
+      <PackageReference Include="BrokerMQ" Version="1.0.0" />
+      <PackageReference Include="BrokerMQ.RabbitMq" Version="1.0.0" />
     </ItemGroup>
 
 </Project>

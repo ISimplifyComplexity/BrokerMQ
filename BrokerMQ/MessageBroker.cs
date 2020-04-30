@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Linq;
-using System.Net;
 using System.Reflection;
-using BrokerMQ.Messaging.Contracts;
-using BrokerMQ.Messaging.Decorators;
-using IMessage = BrokerMQ.Contracts.IMessage;
-using IMessageBroker = BrokerMQ.Contracts.IMessageBroker;
-using IMessageService = BrokerMQ.Contracts.IMessageService;
+using BrokerMQ.Contracts;
+using BrokerMQ.Decorators;
 
-namespace BrokerMQ.Messaging
+namespace BrokerMQ
 {
     public class MessageBroker : IMessageBroker
     {

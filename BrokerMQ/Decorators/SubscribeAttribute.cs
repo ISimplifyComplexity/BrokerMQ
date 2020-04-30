@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BrokerMQ.Messaging.Decorators
+namespace BrokerMQ.Decorators
 {
     public class SubscribeAttribute : Attribute
     {

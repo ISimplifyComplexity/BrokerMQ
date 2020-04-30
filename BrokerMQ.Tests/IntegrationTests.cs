@@ -1,10 +1,6 @@
-using System;
 using BrokerMQ.Contracts;
-using BrokerMQ.Messaging;
-using BrokerMQ.Messaging.Decorators;
-using BrokerMQ.Messaging.RabbitMq;
+using BrokerMQ.RabbitMq;
 using BrokerMQ.Tests.Models;
-using ImpromptuInterface;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
 
