@@ -10,13 +10,6 @@ variables:
 
 steps:
 
-- task: versioncounter@1
-  inputs:
-    VersionVariable: 'versionnumber'
-    UpdateMinorVersion: true
-    MaxValuePatchVersion: '9999'
-    DevOpsPat: '$(devops-pat)'
-
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 
