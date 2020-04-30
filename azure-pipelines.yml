@@ -20,10 +20,6 @@ steps:
     configuration: 'Release'
     packagesToPack: '**/BrokerMQ*.csproj'
     nobuild: true
-    versioningScheme: 'byPrereleaseNumber'
-    majorVersion: '1'
-    minorVersion: '0'
-    patchVersion: '0'
 
 - task: PublishBuildArtifacts@1
   inputs:
