@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ky9OvcWOH/xLuu0vx82cD3JDJ3Tl8Tt+gpBMA6Gt2hsRrJLdn8+eESaC/fxzk/QsFGxit2TzyyYBYW6loLS8NA==",
+  "success": true,
+  "projectFilePath": "D:\\Repos\\BrokerMQ\\BrokerMQ.Messaging.RabbitMq\\BrokerMQ.Messaging.RabbitMq.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zebco\\.nuget\\packages\\rabbitmq.client\\6.0.0\\rabbitmq.client.6.0.0.nupkg.sha512",
+    "C:\\Users\\zebco\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
