@@ -10,18 +10,21 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
-- task: NuGetCommand@2
+
+- task: DotNetCoreCLI@2
+  displayName: 'Pack the package'
   inputs:
     command: 'pack'
+    configuration: 'Release'
     packagesToPack: '**/BrokerMQ*.csproj'
+    nobuild: true
     versioningScheme: 'byPrereleaseNumber'
     majorVersion: '1'
     minorVersion: '0'
     patchVersion: '0'
-    
-- task: NuGetCommand@2
+
+- task: PublishBuildArtifacts@1
   inputs:
-    command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
-    nuGetFeedType: 'internal'
-    publishVstsFeed: 'cf5d6e10-5004-42fe-827f-e99c17aa63da/1403725f-ecd0-46e7-b1ee-35422df41122'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
