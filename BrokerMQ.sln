@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerMQ.Contracts", "BrokerMQ.Contracts\BrokerMQ.Contracts.csproj", "{0448A2F3-8D2A-4ADF-9668-799A8144AC71}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerMQ.Messaging", "BrokerMQ.Messaging\BrokerMQ.Messaging.csproj", "{ABAF00EE-D660-49ED-992E-D004259D957A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerMQ.Messaging.RabbitMq", "BrokerMQ.Messaging.RabbitMq\BrokerMQ.Messaging.RabbitMq.csproj", "{8CC8B73C-0076-4107-91A4-2C856D9F8E0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerMQ.Messaging.Services.RabbitMq", "BrokerMQ.Messaging.Services.RabbitMq\BrokerMQ.Messaging.Services.RabbitMq.csproj", "{8CC8B73C-0076-4107-91A4-2C856D9F8E0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerMQ.Tests", "BrokerMQ.Tests\BrokerMQ.Tests.csproj", "{EDE65885-3A20-4A11-93C8-90E7EBF5B800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harness", "harness\harness.csproj", "{7253C714-D249-43B0-B4B3-96D3208BB04C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,18 +24,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Debug|x64.Build.0 = Debug|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Debug|x86.Build.0 = Debug|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Release|x64.ActiveCfg = Release|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Release|x64.Build.0 = Release|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Release|x86.ActiveCfg = Release|Any CPU
-		{0448A2F3-8D2A-4ADF-9668-799A8144AC71}.Release|x86.Build.0 = Release|Any CPU
 		{ABAF00EE-D660-49ED-992E-D004259D957A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ABAF00EE-D660-49ED-992E-D004259D957A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAF00EE-D660-49ED-992E-D004259D957A}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -72,5 +60,17 @@ Global
 		{EDE65885-3A20-4A11-93C8-90E7EBF5B800}.Release|x64.Build.0 = Release|Any CPU
 		{EDE65885-3A20-4A11-93C8-90E7EBF5B800}.Release|x86.ActiveCfg = Release|Any CPU
 		{EDE65885-3A20-4A11-93C8-90E7EBF5B800}.Release|x86.Build.0 = Release|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Debug|x64.Build.0 = Debug|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Debug|x86.Build.0 = Debug|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Release|x64.ActiveCfg = Release|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Release|x64.Build.0 = Release|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Release|x86.ActiveCfg = Release|Any CPU
+		{7253C714-D249-43B0-B4B3-96D3208BB04C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

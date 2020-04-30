@@ -1,6 +1,9 @@
 ﻿using BrokerMQ.Contracts;
 
-public class ExampleMessage : IMessage
+namespace BrokerMQ.Tests.Models
 {
-    public string Text { get; set; }
+    public class ExampleMessage : IMessage
+    {
+        public string Text { get; set; }
+    }
 }

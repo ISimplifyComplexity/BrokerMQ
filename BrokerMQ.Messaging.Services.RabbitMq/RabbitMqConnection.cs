@@ -1,23 +1,16 @@
-﻿﻿using System;
- using System.Reflection.Metadata;
-
- namespace BrokerMQ.Messaging.RabbitMq
+﻿namespace BrokerMQ.Messaging.RabbitMq
 {
-    public class RabbitMqConnectionProperties
+    public class RabbitMqConnection
     {
-        private string HostName { get; }
-        internal string UserName { get; }
-        internal string Password { get; }
+        public string HostName { get; }
+        public string UserName { get; }
+        public string Password { get; }
 
-        private RabbitMqConnectionProperties(string hostName, string userName, string password)
+        public RabbitMqConnection(string hostName, string userName, string password)
         {
             HostName = hostName;
             UserName = userName;
             Password = password;
         }
-
-        public static RabbitMqConnectionProperties Create(string hostName, string userName, string password) =>
-            new RabbitMqConnectionProperties(hostName, userName, password);
-
     }
 }

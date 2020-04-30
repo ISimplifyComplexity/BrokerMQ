@@ -10,13 +10,12 @@ namespace BrokerMQ.Messaging.RabbitMq
 {
     public class RabbitMqService : IDisposable, IMessageService
     {
-        private readonly IBusConnectionProperties _connProperties;
-
         private ConnectionFactory _factory;
         private IConnection _connection;
         private IModel _channel;
+        private RabbitMqConnection _connProperties;
 
-        public RabbitMqService(IBusConnectionProperties connProperties)
+        public RabbitMqService(RabbitMqConnection connProperties)
         {
             _connProperties = connProperties;
         }

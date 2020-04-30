@@ -1,4 +1,4 @@
-﻿namespace BrokerMQ.Contracts
+﻿namespace BrokerMQ.Messaging.Contracts
 {
     public interface IPublish
     {
