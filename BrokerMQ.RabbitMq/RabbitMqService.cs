@@ -52,7 +52,7 @@ namespace BrokerMQ.RabbitMq
         public void Publish<TMessage>(string queueName, TMessage message) where TMessage : IMessage
         {
             CreateQueue(queueName);
-            
+
             var body = JsonSerializer.SerializeToUtf8Bytes(message);
 
             _channel.BasicPublish(exchange: "",
@@ -70,7 +70,6 @@ namespace BrokerMQ.RabbitMq
                 arguments: null);
         }
 
-
         public void Subscribe(object instance, MethodInfo methodInfo, Type modelType, string queueName)
         {
             CreateQueue(queueName);
@@ -86,8 +85,8 @@ namespace BrokerMQ.RabbitMq
                 var messageModel = JsonSerializer
                         .Deserialize(message, modelType)
                     as IMessage;
-                
-                methodInfo.Invoke(instance, parameters: new object[] {messageModel});
+
+                methodInfo.Invoke(instance, parameters: new object[] { messageModel });
             };
 
             _channel.BasicConsume(queue: queueName,
