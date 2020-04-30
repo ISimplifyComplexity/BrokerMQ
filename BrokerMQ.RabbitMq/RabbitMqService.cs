@@ -13,7 +13,7 @@ namespace BrokerMQ.RabbitMq
         private ConnectionFactory _factory;
         private IConnection _connection;
         private IModel _channel;
-        private RabbitMqConnection _connProperties;
+        private readonly RabbitMqConnection _connProperties;
 
         public RabbitMqService(RabbitMqConnection connProperties)
         {
