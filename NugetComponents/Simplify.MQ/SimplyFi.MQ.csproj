@@ -4,11 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <AssemblyVersion>1.0.2.1</AssemblyVersion>
-    <FileVersion>1.0.2.1</FileVersion>
-    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2.5</AssemblyVersion>
+    <FileVersion>1.0.2.5</FileVersion>
+    <Version>1.0.2.5</Version>
     <RootNamespace>SimplyFi.MQ</RootNamespace>
     <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
   </PropertyGroup>
 
 
