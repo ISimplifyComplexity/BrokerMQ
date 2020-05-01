@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace SimplyFi.MQ.Contracts
+namespace SimplyFi.MQ.Core.Contracts
 {
     public interface ISubscribe
     {

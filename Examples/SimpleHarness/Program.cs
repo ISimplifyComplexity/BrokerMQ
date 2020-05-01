@@ -2,8 +2,9 @@
 using SimpliFi.MQ.Harness.Models;
 using SimplyFi.MQ;
 using SimplyFi.MQ.Connectors.RabbitMq;
-using SimplyFi.MQ.Contracts;
-using SimplyFi.MQ.Decorators;
+using SimplyFi.MQ.Core;
+using SimplyFi.MQ.Core.Contracts;
+using SimplyFi.MQ.Core.Decorators;
 
 namespace SimpliFi.MQ.Harness
 {

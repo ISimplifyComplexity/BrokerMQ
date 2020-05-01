@@ -1,4 +1,4 @@
-﻿using SimplyFi.MQ.Contracts;
+﻿using SimplyFi.MQ.Core.Contracts;
 
 namespace SimpliFi.MQ.Harness.Models
 {

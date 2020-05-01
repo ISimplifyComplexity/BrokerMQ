@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleHarness", "Examples\S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetComponents", "NugetComponents", "{6B4D32A0-0652-42ED-95A3-2BE7795A965F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplyFi.MQ", "NugetComponents\Simplify.MQ\SimplyFi.MQ.csproj", "{86C4002F-E4B2-4559-91BF-44D13C3409FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplyFi.MQ.Core", "NugetComponents\Simplify.MQ\SimplyFi.MQ.Core.csproj", "{86C4002F-E4B2-4559-91BF-44D13C3409FA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplyFi.MQ.Connectors.RabbitMq", "NugetComponents\Connectors\Simplify.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj", "{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}"
 EndProject

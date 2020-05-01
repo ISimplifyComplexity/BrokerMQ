@@ -2,9 +2,9 @@
 using System.Reflection;
 using System.Text;
 using System.Text.Json;
-using SimplyFi.MQ.Contracts;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using SimplyFi.MQ.Core.Contracts;
 
 namespace SimplyFi.MQ.Connectors.RabbitMq
 {

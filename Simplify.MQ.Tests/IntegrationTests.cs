@@ -2,7 +2,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
 using SimplyFi.MQ.Connectors.RabbitMq;
-using SimplyFi.MQ.Contracts;
+using SimplyFi.MQ.Core;
+using SimplyFi.MQ.Core.Contracts;
 using SimplyFi.MQ.Tests.Models;
 
 namespace SimplyFi.MQ.Tests

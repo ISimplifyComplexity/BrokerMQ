@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\NugetComponents\Connectors\Simplify.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj" />
-      <ProjectReference Include="..\..\NugetComponents\Simplify.MQ\SimplyFi.MQ.csproj" />
+      <ProjectReference Include="..\..\NugetComponents\Simplify.MQ\SimplyFi.MQ.Core.csproj" />
     </ItemGroup>
 
 </Project>
