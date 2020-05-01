@@ -9,31 +9,12 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-
-- task: Assembly-Info-NetCore@2
+- task: NuGetCommand@2
   inputs:
-    Path: '$(Build.SourcesDirectory)'
-    FileNames: '**/*.csproj'
-    InsertAttributes: true
-    FileEncoding: 'auto'
-    WriteBOM: false
-    Authors: 'Kiran Randhawa'
-    Company: 'PrimeByDesign Consulting Limited'
-    Product: 'SimpliFi.MQ'
-    Description: 'Components built to simplify working with message queues and busses.'
-    Copyright: 'MIT'
-    PackageLicenseUrl: 'https://mit-license.org/'
-    PackageProjectUrl: 'https://github.com/ISimplifyComplexity/SimpliFi.MQ'
-    PackageIconUrl: 'https://raw.githubusercontent.com/ISimplifyComplexity/SimpliFi.MQ/master/Artwork/logo.ico'
-    RepositoryUrl: 'https://github.com/ISimplifyComplexity/SimpliFi.MQ'
-    VersionNumber: '$(Build.BuildNumer)'
-    FileVersionNumber: '$(Build.BuildNumer)'
-    InformationalVersion: '$(Build.BuildNumer)'
-    PackageVersion: '$(Build.BuildNumer)'
-    LogLevel: 'verbose'
-    FailOnWarning: false
-    DisableTelemetry: false
-
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 
