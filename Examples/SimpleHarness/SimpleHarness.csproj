@@ -5,6 +5,7 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <AssemblyName>SimpliFi.MQ.Harness</AssemblyName>
         <RootNamespace>SimpliFi.MQ.Harness</RootNamespace>
+        <ApplicationIcon>logo.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
