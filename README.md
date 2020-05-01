@@ -1,1 +1,1 @@
-Simplify.MQ
+SimplyFi.MQ

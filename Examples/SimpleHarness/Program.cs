@@ -1,12 +1,12 @@
 ﻿using System;
-using SimpliFi.MQ.Harness.Models;
+using SimplyFi.MQ.Harness.Models;
 using SimplyFi.MQ;
 using SimplyFi.MQ.Connectors.RabbitMq;
 using SimplyFi.MQ.Core;
 using SimplyFi.MQ.Core.Contracts;
 using SimplyFi.MQ.Core.Decorators;
 
-namespace SimpliFi.MQ.Harness
+namespace SimplyFi.MQ.Harness
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace SimpliFi.MQ.Harness
                         "localhost", "user", "password")
                 ));
 
-            messageBroker.Publish("TestQueue", new ExampleMessage() {Text = "Bonjour! Daniel!"});
+            messageBroker.Publish("TestQueue", new ExampleMessage() { Text = "Bonjour! Daniel!" });
             Console.ReadLine();
         }
     }
