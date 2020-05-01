@@ -1,1 +1,1 @@
-BrokerMQ
+Simplify.MQ

@@ -1,12 +1,11 @@
 ﻿using System;
-using BrokerMQ;
-using BrokerMQ.Contracts;
-using BrokerMQ.Decorators;
-using BrokerMQ.RabbitMq;
-using harness.Models;
+using SimpliFi.MQ.Harness.Models;
+using SimplyFi.MQ;
+using SimplyFi.MQ.Connectors.RabbitMq;
+using SimplyFi.MQ.Contracts;
+using SimplyFi.MQ.Decorators;
 
-
-namespace harness
+namespace SimpliFi.MQ.Harness
 {
     class Program
     {

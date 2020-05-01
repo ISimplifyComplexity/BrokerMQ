@@ -1,4 +1,4 @@
-﻿namespace BrokerMQ.RabbitMq
+﻿namespace SimplyFi.MQ.Connectors.RabbitMq
 {
     public class RabbitMqConnection
     {

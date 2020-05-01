@@ -1,10 +1,11 @@
-using BrokerMQ.Contracts;
-using BrokerMQ.RabbitMq;
-using BrokerMQ.Tests.Models;
+using SimplyFi.MQ;
+using SimplyFi.MQ.Contracts;
+using SimplyFi.MQ.Connectors.RabbitMq;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
+using SimplyFi.MQ.Tests.Models;
 
-namespace BrokerMQ.Tests
+namespace SimplyFi.MQ.Tests
 {
     public class Tests
     {

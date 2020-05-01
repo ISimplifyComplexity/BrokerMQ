@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using BrokerMQ.Contracts;
-using BrokerMQ.Decorators;
+using SimplyFi.MQ.Contracts;
+using SimplyFi.MQ.Decorators;
 
-namespace BrokerMQ
+namespace SimplyFi.MQ
 {
     public class MessageBroker : IMessageBroker
     {

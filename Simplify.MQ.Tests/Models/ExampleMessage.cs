@@ -1,6 +1,6 @@
-﻿using BrokerMQ.Contracts;
+﻿using SimplyFi.MQ.Contracts;
 
-namespace BrokerMQ.Tests.Models
+namespace SimplyFi.MQ.Tests.Models
 {
     public class ExampleMessage : IMessage
     {

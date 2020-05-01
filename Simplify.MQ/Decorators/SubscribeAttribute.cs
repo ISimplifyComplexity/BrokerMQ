@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BrokerMQ.Decorators
+namespace SimplyFi.MQ.Decorators
 {
     public class SubscribeAttribute : Attribute
     {

@@ -2,11 +2,11 @@
 using System.Reflection;
 using System.Text;
 using System.Text.Json;
-using BrokerMQ.Contracts;
+using SimplyFi.MQ.Contracts;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace BrokerMQ.RabbitMq
+namespace SimplyFi.MQ.Connectors.RabbitMq
 {
     public class RabbitMqService : IDisposable, IMessageService
     {

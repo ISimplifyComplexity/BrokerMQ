@@ -1,4 +1,4 @@
-﻿namespace BrokerMQ.Contracts
+﻿namespace SimplyFi.MQ.Contracts
 {
     public interface IPublish
     {
