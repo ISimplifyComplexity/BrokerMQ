@@ -10,11 +10,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleHarness", "Examples\SimpleHarness\SimpleHarness.csproj", "{31B4C50A-28F3-476B-81AF-09606DDCFDEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetComponents", "NugetComponents", "{6B4D32A0-0652-42ED-95A3-2BE7795A965F}"
-	ProjectSection(SolutionItems) = preProject
-		NugetComponents\Connectors\Simplify.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj = NugetComponents\Connectors\Simplify.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplyFi.MQ", "NugetComponents\Simplify.MQ\SimplyFi.MQ.csproj", "{86C4002F-E4B2-4559-91BF-44D13C3409FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplyFi.MQ.Connectors.RabbitMq", "NugetComponents\Connectors\Simplify.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj", "{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +61,18 @@ Global
 		{86C4002F-E4B2-4559-91BF-44D13C3409FA}.Release|x64.Build.0 = Release|Any CPU
 		{86C4002F-E4B2-4559-91BF-44D13C3409FA}.Release|x86.ActiveCfg = Release|Any CPU
 		{86C4002F-E4B2-4559-91BF-44D13C3409FA}.Release|x86.Build.0 = Release|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Debug|x64.Build.0 = Debug|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Debug|x86.Build.0 = Debug|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Release|x64.ActiveCfg = Release|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Release|x64.Build.0 = Release|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +80,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{31B4C50A-28F3-476B-81AF-09606DDCFDEE} = {5830BBED-9589-43AB-B7C3-F6882F3B1AC3}
 		{86C4002F-E4B2-4559-91BF-44D13C3409FA} = {6B4D32A0-0652-42ED-95A3-2BE7795A965F}
+		{6A161A9D-0FD4-4B1C-9B94-FC5720F1A5BB} = {6B4D32A0-0652-42ED-95A3-2BE7795A965F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DFC28E2B-2B0E-4081-9AE8-C6CF13370A2F}

@@ -17,9 +17,7 @@ steps:
   inputs:
     command: 'pack'
     configuration: 'Release'
-    packagesToPack: 
-     -'Simplify.MQ/SimpliFi.MQ.csproj'
-     -'Connectors/SimpliFi.MQ.*.csproj'
+    packagesToPack: 'NugetComponents/**/*.csproj'
     nobuild: true
 
 - task: PublishBuildArtifacts@1
