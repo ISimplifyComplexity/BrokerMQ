@@ -3,14 +3,14 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <AssemblyName>SimpliFi.MQ.Harness</AssemblyName>
-        <RootNamespace>SimpliFi.MQ.Harness</RootNamespace>
+        <AssemblyName>SimplyFi.MQ.Harness</AssemblyName>
+        <RootNamespace>SimplyFi.MQ.Harness</RootNamespace>
         <ApplicationIcon>logo.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\NugetComponents\Connectors\Simplify.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj" />
-      <ProjectReference Include="..\..\NugetComponents\Simplify.MQ\SimplyFi.MQ.Core.csproj" />
+      <ProjectReference Include="..\..\NugetComponents\Connectors\SimplyFi.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj" />
+      <ProjectReference Include="..\..\NugetComponents\SimplyFi.MQ\SimplyFi.MQ.Core.csproj" />
     </ItemGroup>
 
 </Project>

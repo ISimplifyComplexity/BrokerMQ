@@ -1,6 +1,6 @@
 ﻿using SimplyFi.MQ.Core.Contracts;
 
-namespace SimpliFi.MQ.Harness.Models
+namespace SimplyFi.MQ.Harness.Models
 {
     public class ExampleMessage : IMessage
     {

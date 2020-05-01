@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NugetComponents\Connectors\Simplify.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj" />
-    <ProjectReference Include="..\NugetComponents\Simplify.MQ\SimplyFi.MQ.Core.csproj" />
+    <ProjectReference Include="..\NugetComponents\Connectors\SimplyFi.MQ.Connectors.RabbitMQ\SimplyFi.MQ.Connectors.RabbitMq.csproj" />
+    <ProjectReference Include="..\NugetComponents\SimplyFi.MQ\SimplyFi.MQ.Core.csproj" />
   </ItemGroup>
 
 </Project>
