@@ -17,7 +17,9 @@ steps:
   inputs:
     command: 'pack'
     configuration: 'Release'
-    packagesToPack: '**/BrokerMQ*.csproj'
+    packagesToPack: 
+     -'Simplify.MQ/SimpliFi.MQ.csproj'
+     -'Connectors/SimpliFi.MQ.*.csproj'
     nobuild: true
 
 - task: PublishBuildArtifacts@1
