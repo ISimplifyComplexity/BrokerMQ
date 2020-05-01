@@ -18,8 +18,8 @@ steps:
     command: 'pack'
     configuration: 'Release'
     packagesToPack: 
-    -'Simplify.MQ/SimpliFi.MQ.csproj'
-    -'Connectors/SimpliFi.MQ.*.csproj'
+     -'Simplify.MQ/SimpliFi.MQ.csproj'
+     -'Connectors/SimpliFi.MQ.*.csproj'
     nobuild: true
 
 - task: PublishBuildArtifacts@1
