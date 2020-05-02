@@ -18,6 +18,7 @@
     <Product>SimplyFi.MQ.Connectors.RabbitMq</Product>
     <Company>Prime by Design Consulting Limited</Company>
     <Authors>Kiran Randhawa</Authors>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
