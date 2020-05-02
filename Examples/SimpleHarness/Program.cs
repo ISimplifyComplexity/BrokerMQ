@@ -18,7 +18,7 @@ namespace SimplyFi.MQ.Harness
                         "localhost", "user", "password")
                 ));
 
-            messageBroker.Publish("TestQueue", new ExampleMessage() { Text = "Bonjour! Daniel!" });
+            messageBroker.Publish("TestQueue", new ExampleMessage() { Text = "Hola! Andrew!" });
             Console.ReadLine();
         }
     }
