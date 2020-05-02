@@ -1,5 +1,5 @@
 
-![Visual Studio screenshot](./Artwork/logo.png )
+![Visual Studio screenshot](./Artwork/logo.png =250px)
 
 SimplyFi.MQ 
 === 
