@@ -10,7 +10,7 @@ Simply put (you see what I did there?) this project provides a convenient attrib
 Getting Started
 === 
 
-## Step 1 Install the component
+## Install the component
 
 Install via the dotnet CLI:
 
@@ -26,7 +26,7 @@ Search for SimplyFi.Connectors.RabbitMq
 ![Visual Studio screenshot](./Artwork/documentation/NugetVS.jpeg)
 
 
-## Step 2 Instantiate the message broker
+## Instantiate the message broker
 
 Set up your Dependency injection container: 
 ``` csharp
@@ -52,7 +52,7 @@ var messageBroker = new MessageBroker(
             ));
 ```
 
-## Step 3 Create a message class
+## Create a message class
 
 Create a message class that implements the IMessage interface.
 
@@ -63,7 +63,7 @@ public class ExampleMessage : IMessage
 }
 ```
 
-## Step 4 Publishing a message
+## Publishing a message
 
 Using the message broker we can publish a message to bus like so:
 
@@ -76,7 +76,7 @@ messageBroker.Publish("QueueName", new ExampleMessage()
 
 After publishing the component will have created the queue if it didn't exist already. 
 
-## Step 5 Subscribe to the message
+## Subscribe to the message
 
 This is where things get cool 😎. 
 
