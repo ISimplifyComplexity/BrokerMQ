@@ -4,9 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <AssemblyVersion>1.0.3.0</AssemblyVersion>
-    <FileVersion>1.0.3.0</FileVersion>
-    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
+    <Version>1.0.4</Version>
     <RootNamespace>SimplyFi.MQ.Core</RootNamespace>
     <ApplicationIcon>logo.ico</ApplicationIcon>
     <Copyright>Kiran Randhawa</Copyright>
@@ -15,6 +15,10 @@
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl />
     <RepositoryUrl>https://github.com/ISimplifyComplexity/Simplyfi.MQ</RepositoryUrl>
+    <Authors>Kiran Randhawa</Authors>
+    <Company>Prime By Design Consulting Limited</Company>
+    <Description>A simple attribute approach to message pub sub. Simply create a class and add the subscription attribute to your functions to have them fire when a message is recieved. This library is to be used in conjuntion with connectors (e.g. SimplyFi.MQ.Connectors.RabbitMq)
+</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
