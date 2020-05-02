@@ -4,17 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>SimplyFi.MQ.Connectors.RabbitMq</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
-    <AssemblyVersion>1.0.3.0</AssemblyVersion>
-    <FileVersion>1.0.3.0</FileVersion>
+    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
     <ApplicationIcon>logo.ico</ApplicationIcon>
-    <Copyright>MIT</Copyright>
+    <Copyright>Kiran Randhawa</Copyright>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl />
     <RepositoryUrl>https://github.com/ISimplifyComplexity/SimplyFi.MQ</RepositoryUrl>
-    <Description>A Sink for the Simply.MQ library.</Description>
+    <Description>A RabbitMQ Connector for the SimplyFi.MQ.Core library.</Description>
     <Product>SimplyFi.MQ.Connectors.RabbitMq</Product>
     <Company>Prime by Design Consulting Limited</Company>
     <Authors>Kiran Randhawa</Authors>
