@@ -11,9 +11,10 @@
     <ApplicationIcon>logo.ico</ApplicationIcon>
     <Copyright>Kiran Randhawa</Copyright>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/ISimplifyComplexity/Simplyfi.MQ</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl />
+    <RepositoryUrl>https://github.com/ISimplifyComplexity/Simplyfi.MQ</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
