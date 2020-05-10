@@ -96,4 +96,8 @@ public class OrdersService : ISubscriber
     }
 }
 ```
+## Extensibility
+
+This is a simple but extensible library. Connectors can be created to support multiple pub sub systems. I've only needed to use this with RabbitMQ at the moment but this could certainly change in the future. If you need to use this with other systems then why not contribute to the project by creating your own connectors?
+
 
