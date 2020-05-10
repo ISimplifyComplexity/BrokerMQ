@@ -20,7 +20,7 @@ dotnet add package SimplyFi.Connectors.RabbitMq
 ```
 OR 
 
-Install via Nuget in Visual Studio
+Install via the Nuget Package Manager UI in Visual Studio
 
 Search for SimplyFi.Connectors.RabbitMq
 
