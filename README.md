@@ -2,7 +2,7 @@
 # SimplyFi.MQ 
 
 
-[![Build Status](https://dev.azure.com/kiranrandhawa85/SimplyFi.MQ/_apis/build/status/ISimplifyComplexity.SimplyFi.MQ%20(1)?branchName=master)](https://dev.azure.com/kiranrandhawa85/SimplyFi.MQ/_build/latest?definitionId=6&branchName=master)
+[![Build Status](https://dev.azure.com/kiranrandhawa85/SimplyFi.MQ/_apis/build/status/ISimplifyComplexity.SimplyFi.MQ?branchName=master)](https://dev.azure.com/kiranrandhawa85/SimplyFi.MQ/_build/latest?definitionId=6&branchName=master)
 
 What is SimplyFi.MQ? 
 === 
